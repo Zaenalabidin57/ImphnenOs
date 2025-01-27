@@ -105,14 +105,14 @@ just strapping some shit lately,
 
 ## TODO
 
-[x] bikin custom neofetch
-[x] bikin calamares installer (biar bisa install ni linuj jelek bin ampas)
-[x] bikin windows manager (dinfwm, tapi ya nanti implementasi Hyprland "kalau
-gak malas")
-[x] bikin webpage
-[x] bikin repo server (uhh, biar repo yang di aur tinggal comot, ada beberapa
-package penting kek visual-studio-code (bukan oss-code), waydroid(buat native
-android app), proton-GE (gayming), terabox, dll)
-[x] idk, pukulin atmint 
+- [x] bikin custom neofetch
+- [x] bikin calamares installer (biar bisa install ni linuj jelek bin ampas)
+- [x] bikin windows manager (dinfwm, tapi ya nanti implementasi Hyprland "kalau
+- gak malas")
+- [x] bikin webpage
+- [x] bikin repo server (uhh, biar repo yang di aur tinggal comot, ada beberapa
+- package penting kek visual-studio-code (bukan oss-code), waydroid(buat native
+- android app), proton-GE (gayming), terabox, dll)
+- [x] idk, pukulin atmint 
 
 
