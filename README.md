@@ -15,7 +15,7 @@ Tujuan dibuatkan project gajelas ini ya karena buat memfasilitasi para member ma
 ## Cara buat
 download ISO nya di sini
 
-[IphnenOs.iso](https://yadi.sk/d/ZN1YW-uw2pcsBQ) 
+[ImphnenOs.iso](https://yadi.sk/d/8lyJ9VqeBqd0jA) 
 
 kemudian buat bootable menggunakan rufus / ventoy
 ``ingat untuk rufus pakai mode DD jangan ISO``
@@ -108,11 +108,9 @@ just strapping some shit lately,
 - [x] bikin custom neofetch
 - [x] bikin calamares installer (biar bisa install ni linuj jelek bin ampas)
 - [x] bikin windows manager (dinfwm, tapi ya nanti implementasi Hyprland "kalau
-- gak malas")
+ gak malas")
 - [x] bikin webpage
-- [x] bikin repo server (uhh, biar repo yang di aur tinggal comot, ada beberapa
-- package penting kek visual-studio-code (bukan oss-code), waydroid(buat native
-- android app), proton-GE (gayming), terabox, dll)
+- [x] bikin repo server (uhh, biar repo yang di aur tinggal comot, ada beberapa package penting kek visual-studio-code (bukan oss-code), waydroid(buat native android app), proton-GE (gayming), terabox, dll)
 - [x] idk, pukulin atmint 
 
 
