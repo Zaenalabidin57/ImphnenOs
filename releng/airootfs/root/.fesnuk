@@ -1,0 +1,4 @@
+systemctl stop iwd
+systemctl start NetworkManager
+nmtui
+cage firefox https://www.facebook.com/groups/programmerhandal
