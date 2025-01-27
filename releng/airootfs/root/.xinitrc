@@ -1,1 +1,1 @@
-firefox --kiosk https://www.facebook.com
+exec dfwm

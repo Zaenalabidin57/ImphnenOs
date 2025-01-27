@@ -1,4 +1,6 @@
 systemctl stop iwd
 systemctl start NetworkManager
 nmtui
-cage firefox https://www.facebook.com/groups/programmerhandal
+xinit
+firefox --kiosk https://www.facebook.com/groups/programmerhandal
+feh --bg-fill ./wp.jpg

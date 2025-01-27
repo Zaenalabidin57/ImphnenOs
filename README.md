@@ -37,3 +37,82 @@ nanti setelah boot akan keluar network manager (layar kao warna biru) untuk navi
 
 buat keluarnya klik tombol power hehe.
 
+## KONTRIBUSI
+buat korang yang pengen juga bantu kami (abodin doang sih), bisa bantu (plis)
+dengan cara
+- pakai arch btw linux 
+- have some common sense
+- menyukai dedek lembut
+- bisa pakai git (opsional)
+- masih normal (opsional)
+
+### HOW-TO
+
+install dulu archiso
+```
+sudo pacman -S archiso
+```
+sudah tuh clone ni repo
+```
+git clone https://github.com/shigure/ImphnenOs.git
+```
+kemudian modif atau apalah bebas yang penting jangan sampe kernel panic
+
+buat iso
+```
+sudo mkarchiso -v -w /lokasi/workdir/bebas/tapi/kalau/udah/hapus -o
+/lokasi/iso/nya.iso /lokasi/repo/ImphnenOs/releng
+
+```
+nanti buat jalankannya pakai run_archiso
+```
+run_archiso -i /lokasi/iso/nya.iso
+```
+
+begituwj
+auk ah
+
+## File penting
+- airootfs = folder root live iso nya, jadi kesono edit something something
+- packages.x86_64 = package yang di install (masukin filenya yang mau dipasang)
+- profiledef.sh = file penting anjenggg, kalau misalnya menambahkan file ke
+  airootfs wajib menambahkan ``file_permission`` 
+```
+file_permissions=(
+  ["/etc/shadow"]="0:0:400"
+  ["/root"]="0:0:750"
+  ["/root/.automated_script.sh"]="0:0:755"
+  ["/root/.gnupg"]="0:0:700"
+  ["/root/.fesnuk"]="0:0:777"
+  ["/root/wp.jpg"]="0:0:777"
+  ["/usr/local/bin/choose-mirror"]="0:0:755"
+  ["/usr/local/bin/dfwm"]="0:0:755"
+  ["/usr/local/bin/st"]="0:0:755"
+  ["/usr/local/bin/Installation_guide"]="0:0:755"
+  ["/usr/local/bin/livecd-sound"]="0:0:755"
+# ["/lokasi/filenyah/tanpa/airootfs/"]="0:0:755" 755 ae biar jalan, yang
+penting jalan ga peduli safety, hehe
+)
+```
+- airootfs/root = lokasi root directory pas boot dia homo directorynya disini,
+  ada file penting kek .fesnuk buat auto run aplikasi (malas setting systemd)
+just strapping some shit lately,
+- airootfs/etc = sama kek /etc di linux kao, bisa ae copas dari linux mu biar
+  cepet
+- airootfs/usr/local/bin = buat nyimpen binary aplication kalau nambah gitu,
+  jangan lupa tambahin file_permission di profiledef.sh
+- airootfs/root/wp.jpg = boneka abodin
+
+## TODO
+
+[x] bikin custom neofetch
+[x] bikin calamares installer (biar bisa install ni linuj jelek bin ampas)
+[x] bikin windows manager (dinfwm, tapi ya nanti implementasi Hyprland "kalau
+gak malas")
+[x] bikin webpage
+[x] bikin repo server (uhh, biar repo yang di aur tinggal comot, ada beberapa
+package penting kek visual-studio-code (bukan oss-code), waydroid(buat native
+android app), proton-GE (gayming), terabox, dll)
+[x] idk, pukulin atmint 
+
+

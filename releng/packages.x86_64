@@ -128,4 +128,11 @@ xl2tpd
 zsh
 firefox
 cage
+xorg
+xorg-xinit
+libx11
 networkmanager
+feh
+conky
+xterm
+gnu-free-fonts
