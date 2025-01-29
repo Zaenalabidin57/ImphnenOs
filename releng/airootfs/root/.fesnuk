@@ -1,4 +1,4 @@
 systemctl stop iwd
 systemctl start NetworkManager
 nmtui
-xinit
+cage firefox https://www.facebook.com/groups/programmerhandal

@@ -126,14 +126,6 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
-firefox
 cage
-xorg
-xorg-xinit
-libx11
+firefox
 networkmanager
-feh
-conky
-xterm
-gnu-free-fonts
-neofetch
