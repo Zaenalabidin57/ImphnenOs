@@ -128,4 +128,8 @@ xl2tpd
 zsh
 cage
 firefox
+plymouth
+kbd
 networkmanager
+nftables
+xorg-xwayland
