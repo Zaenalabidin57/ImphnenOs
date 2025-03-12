@@ -15,7 +15,7 @@ Tujuan dibuatkan project gajelas ini ya karena buat memfasilitasi para member ma
 ## Cara buat
 download ISO nya di sini
 
-[ImphnenOs.iso](https://yadi.sk/d/8lyJ9VqeBqd0jA) 
+[ImphnenOs.iso](https://github.com/IMPHNEN/ImphnenOs/releases/download/Beta/ImphnenOs-2025.03.11-x86_64.iso) 
 
 kemudian buat bootable menggunakan rufus / ventoy
 ``ingat untuk rufus pakai mode DD jangan ISO``
