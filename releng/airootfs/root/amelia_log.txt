@@ -1,0 +1,2 @@
+[root@archlinux /]#             echo "blacklist sp5100_tco" | tee /etc/modprobe.d/blacklist.conf || exit
+[root@archlinux /]# exit
