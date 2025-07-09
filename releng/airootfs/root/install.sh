@@ -1037,7 +1037,7 @@ ${magenta}###${nc}-----------------------------------${magenta}[ ${bwhite}Secure
         YELLOW "
 
         >  Sign UKI(s), Kernel & binaries for use with ${nc}Secure Boot ${yellow}? [Y/n]
-        ### kalau abodin gapake ini sih,pilih 'n' aja. gatau fungsinya asli"
+        ### bikin kernelnya satu di /boot/efi (no aja ribet soalnya)"
         BLUE "
 
 

@@ -54,7 +54,7 @@ Trus booting ke uuhhh, yes,
 ![wollpeper](media/wallpaper_imphnenos.png)
 
 
-buat user W I F I ! ! !. tekan dulu Windows + W buat setup wifi korang, trus Windows + O buat buka Brave.
+buat user W I F I ! ! !. kalau di bar bawah ada tulisan merah "Disconnected" berarti gak konek internet. tekan dulu Windows + W buat setup wifi korang, trus Windows + O buat buka Brave.
 
 
 ## Installernya masih TO-DO list, belum beres, takut jir nanti media asusila kalian gak sengaja terhapuskan sehingga kalian tidak bisa melakukan aksi tidak terpuji di dalam kamar sendiri, jadi harus full testing dulu biar aman dipakai (baca: malas bikin installernya njing)

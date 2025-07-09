@@ -10,7 +10,7 @@ iso_version="P-I-T-A"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
-  'uefi-x64.grub.esp'
+	'uefi-x64.systemd-boot.esp' 'uefi-x64.systemd-boot.eltorito'
            )
 
 
@@ -28,6 +28,7 @@ file_permissions=(
   ["/root/.gnupg"]="0:0:700"
   ["/root/.opening.sh"]="0:0:777"
   ["/root/.fesnuk.sh"]="0:0:777"
+  ["/root/install.sh"]="0:0:777"
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/share"]="0:0:755"
   ["/etc/plymouth/plymouthd.conf"]="0:0:755"
